@@ -1,4 +1,9 @@
-# Avalanche dev env kickstarter
+# Avalanchego Kurtosis enviroment starter
+
+This repository provides bootstrap tools for [avalanchego](https://github.com/ava-labs/avalanchego-internal/) networks.
+
+We've integrated [kurtosis](https://www.kurtosistech.com/) to provide a quick way to bootstrap and test avalanchego networks.  
+We're also making available a docker-compose ready-to-boot folder that will bootstrap a local avalanchego network.
 
 # Kurtosis
 
@@ -50,5 +55,3 @@ localhost:9663 -> node3:9651
 localhost:9664 -> node4:9651
 localhost:9665 -> node5:9651
 ```
-
-Please note 
